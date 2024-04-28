@@ -33,5 +33,5 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push tariksaid/docker-graphql:0.0.2 .
+        docker push tariksaid/docker-graphql:0.0.2
         
