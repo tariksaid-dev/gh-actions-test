@@ -35,7 +35,7 @@ jobs:
       env:
         NEW_VERSION: ${{ steps.version.outputs.version }}
       run: |
-        docker build -t tariksaid/docker-graphql:$NEW_VERSION.
+        docker build -t tariksaid/docker-graphql:$NEW_VERSION .
         docker build -t tariksaid/docker-graphql:latest .
 
     - name: Push Docker Image
